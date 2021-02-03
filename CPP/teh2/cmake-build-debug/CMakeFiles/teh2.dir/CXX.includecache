@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/abdullah.hinnawi/CLionProjects/C-CPP/CPP/teh2/main.cpp
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+iostream
+-
+string
+-
+sstream
+-
+
