@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/abdullah.hinnawi/CLionProjects/C-CPP/CPP/Matkajarjestelma/IOHelper.h
+
+/Users/abdullah.hinnawi/CLionProjects/C-CPP/CPP/Matkajarjestelma/Matkakortti.cpp
+Matkakortti.h
+/Users/abdullah.hinnawi/CLionProjects/C-CPP/CPP/Matkajarjestelma/Matkakortti.h
+
+/Users/abdullah.hinnawi/CLionProjects/C-CPP/CPP/Matkajarjestelma/Matkakortti.h
+stdafx.h
+/Users/abdullah.hinnawi/CLionProjects/C-CPP/CPP/Matkajarjestelma/stdafx.h
+
+/Users/abdullah.hinnawi/CLionProjects/C-CPP/CPP/Matkajarjestelma/stdafx.h
+stdio.h
+-
+iostream
+-
+string
+-
+sstream
+-
+stdlib.h
+-
+IOHelper.h
+/Users/abdullah.hinnawi/CLionProjects/C-CPP/CPP/Matkajarjestelma/IOHelper.h
+Matkakortti.h
+/Users/abdullah.hinnawi/CLionProjects/C-CPP/CPP/Matkajarjestelma/Matkakortti.h
+
