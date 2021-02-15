@@ -48,33 +48,7 @@ Matkakortti.h
 Leimaaja.h
 /Users/abdullah.hinnawi/CLionProjects/C-CPP/CPP/teh6/HeaderFiles/Leimaaja.h
 
-/Users/abdullah.hinnawi/CLionProjects/C-CPP/CPP/teh6/SourceFiles/DateTime.cpp
-../HeaderFiles/DateTime.h
-/Users/abdullah.hinnawi/CLionProjects/C-CPP/CPP/teh6/HeaderFiles/DateTime.h
-
-/Users/abdullah.hinnawi/CLionProjects/C-CPP/CPP/teh6/SourceFiles/IOHelper.cpp
-../HeaderFiles/stdafx.h
-/Users/abdullah.hinnawi/CLionProjects/C-CPP/CPP/teh6/HeaderFiles/stdafx.h
-string
--
-sstream
--
-iostream
--
-
-/Users/abdullah.hinnawi/CLionProjects/C-CPP/CPP/teh6/SourceFiles/Leimaaja.cpp
-../HeaderFiles/stdafx.h
-/Users/abdullah.hinnawi/CLionProjects/C-CPP/CPP/teh6/HeaderFiles/stdafx.h
-
 /Users/abdullah.hinnawi/CLionProjects/C-CPP/CPP/teh6/SourceFiles/Matkajarjestelma.cpp
-../HeaderFiles/stdafx.h
-/Users/abdullah.hinnawi/CLionProjects/C-CPP/CPP/teh6/HeaderFiles/stdafx.h
-
-/Users/abdullah.hinnawi/CLionProjects/C-CPP/CPP/teh6/SourceFiles/Matkakortti.cpp
-../HeaderFiles/Matkakortti.h
-/Users/abdullah.hinnawi/CLionProjects/C-CPP/CPP/teh6/HeaderFiles/Matkakortti.h
-
-/Users/abdullah.hinnawi/CLionProjects/C-CPP/CPP/teh6/SourceFiles/stdafx.cpp
 ../HeaderFiles/stdafx.h
 /Users/abdullah.hinnawi/CLionProjects/C-CPP/CPP/teh6/HeaderFiles/stdafx.h
 
