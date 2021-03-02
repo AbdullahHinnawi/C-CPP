@@ -47,11 +47,11 @@ int main()
                 break;
             case 3:
                 cout << "\t\t\t\t";
-                leimaaja<<(kortti);
+                leimaaja << kortti;
                 break;
             case 4:
                 cout << "\t\t\t\t";
-                leimaaja<<=(kortti);
+                leimaaja <<= kortti;
                 break;
             case 5:
                 cout << "\t\t\t\t";
