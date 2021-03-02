@@ -14,6 +14,7 @@ using namespace std;
 class Matkakortti; // forward-maarittely
 class Leimaustapahtuma; // forward-maarittely
 class Paneeli; // forward-maarittely
+class DateTime; // forward-maarittely
 
 
 class Leimaaja
@@ -21,7 +22,8 @@ class Leimaaja
 private:
     string reitinNimi;
     Leimaustapahtuma **leimaukset; // Leimaustapahtuma edellyttaa forward-maarittelya
-
+    Paneeli *paneeli;
+    DateTime *dateTime;
     int leimausLkm; // globaali leimauslaskuri
 
 
@@ -31,7 +33,7 @@ public:
     ~Leimaaja();
     Leimaaja(const string &reitinNimi);
     void muutaLeimausLkm(int lkm);
-    bool leimaa(Matkakortti& kortti, Matkatyyppi tyyppi, Paneeli paneeli); // Matkakortti edellyttää forward-maarittely
+    bool leimaa(Matkakortti& kortti, Matkatyyppi tyyppi); // Matkakortti edellyttää forward-maarittely
     void tulostaTiedot();
 };
 ;

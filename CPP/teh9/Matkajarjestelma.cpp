@@ -15,7 +15,6 @@ int main()
     int leimaustenLkm;
     Matkakortti kortti;
     Leimaaja leimaaja;
-    Paneeli paneeli;
     do
     {
         system("clear");
@@ -50,13 +49,13 @@ int main()
                 cout << "\t\t\t\t";
                 // matkusta() metodi kutsutaan leimaa() metodin kutsuessa.
                 //kortti.matkusta(HELSINKI);
-                leimaaja.leimaa(kortti, HELSINKI, paneeli);
+                leimaaja.leimaa(kortti, HELSINKI);
                 break;
             case 4:
                 cout << "\t\t\t\t";
                 // matkusta() metodi kutsutaan leimaa() metodin kutsuessa.
                 //kortti.matkusta(SEUTU);
-                leimaaja.leimaa(kortti, SEUTU, paneeli);
+                leimaaja.leimaa(kortti, SEUTU);
                 break;
             case 5:
                 cout << "\t\t\t\t";

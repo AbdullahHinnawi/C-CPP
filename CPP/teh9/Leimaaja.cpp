@@ -4,9 +4,11 @@
 
 using namespace std;
 
-DateTime dateTime;
 
 Leimaaja::Leimaaja() {
+
+    paneeli = new Paneeli();
+    dateTime = new DateTime();
 
     MAX = 5;
     leimaukset = new Leimaustapahtuma* [MAX];
@@ -22,6 +24,9 @@ Leimaaja::~Leimaaja() {
     for(int i = 0; i < MAX; i++){
         delete leimaukset[i];
     }
+
+    delete paneeli;
+    delete dateTime;
 
 }
 
@@ -48,22 +53,22 @@ void Leimaaja::muutaLeimausLkm(int lkm) {
 
 }
 
-bool Leimaaja::leimaa(Matkakortti& kortti, Matkatyyppi tyyppi, Paneeli paneeli)
+bool Leimaaja::leimaa(Matkakortti& kortti, Matkatyyppi tyyppi)
 {
     if(kortti.matkusta(tyyppi)){
         Leimaustapahtuma *uusiLeimaus;
-        string leimausAika = dateTime.getCurrentTime();
+        string leimausAika = dateTime->getCurrentTime();
         uusiLeimaus = new Leimaustapahtuma(kortti.palautaNimi(), leimausAika);
         delete leimaukset[leimausLkm % MAX];
         leimaukset[leimausLkm % MAX] = uusiLeimaus;
         leimausLkm++;
-        paneeli.setVari( "Vihrea");
-        paneeli.tulostaVari();
+        paneeli->setVari("Vihrea");
+        paneeli->tulostaVari();
         return true;
 
     }
-    paneeli.setVari( "Punainen");
-    paneeli.tulostaVari();
+    paneeli->setVari( "Punainen");
+    paneeli->tulostaVari();
     return false;
 }
 
